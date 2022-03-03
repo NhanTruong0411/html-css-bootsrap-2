@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: Gainsboro!  ;
+}
+
+.ml-auto {
+  margin-left: auto!important;
+}
+
+/* header */
+.headerLab02 .container .row .col-7 h1 {
+  color: white;
+  text-shadow: 5px 5px 15px #000000;
+}
+.headerLab02 .container .row .col-7 p {
+  text-decoration: overline;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+
+
+/* Navigation */
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 8px;
+}
+.nav-item {
+  margin-left: 35px;
+}
+.card-footer .card-text .money {
+  position: relative;
+  top: -5px;
+}
+
+
+
+/* Main Product */
+.main_right .shopping_now {
+  border: 1px solid DarkGray  ;
+  border-radius: 8px;
+  padding: 10px;
+}
+.love_it {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: crimson;
+  transition: all 0.5s;
+}
+.love_it:hover {
+  color: DarkGray;
+}
+
+
+
+
+
+@media (max-width:768px) {
+  .main_right .shopping_now {
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .main_right .shopping_img {
+    width: 50px;
+    height: 50px;
+  }
+  .main_section_product .main_section .card-body {
+    height: 400px!important;
+  }
+}
+
+
+
+/* Footer Section */
+footer hr {
+  border: 1px solid gray;
+  margin: 0;
+  padding: 0;
+}
+footer .icon01,
+footer .icon02,
+footer .icon03,
+footer .icon04 {
+  transition: 0.5s ease;
+}
+
+footer .icon01:hover {
+  color: #3b5999!important;
+}
+footer .icon02:hover {
+  color: #55acee!important;
+}
+footer .icon03:hover {
+  color: #df2029!important;
+}
+footer .icon04:hover {
+  color: #cd201f!important;
+}
+
+@media (max-width: 460px) {
+  footer .icon01,
+  footer .icon02,
+  footer .icon03,
+  footer .icon04 {
+    font-size: 2rem!important;
+    margin: 16px 0;
+  }
+
+}

@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <style>
+    .navbar .nav-item:hover .nav-link {
+      color: #fff;
+    }
+
+    .logo {
+      margin-top: 100px;
+    }
+
+    .logo h1 {
+      color: #fff;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .logo h5 {
+      word-spacing: 2px;
+      text-decoration: overline;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container-fluid bg-light">
+    <div class="container">
+
+      <!-- Vung header-->
+      <div class="row">
+        <div class="col-lg-7 col-md-12 bg-light logo align-bottom">
+          <h1>ONLINE SHOPPING MALL</h1>
+          <h5> THE CENTER POINT OF PROFESSIONAL PROGRAMMING</h5>
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <img src="img/header-object.png" class="" />
+        </div>
+      </div>
+
+      <!-- Vung navbar-->
+      <div class="navbar navbar-expand-sm navbar-dark bg-dark" style="z-index: 1000;">
+        <a class="navbar-brand mx-3" href="#">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          Trang chủ</a>
+
+        <!-- BS4:  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">-->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <!--them mr-auto để cho phần link còn lại qua phải-->
+            <li class="nav-item"> <a class="nav-link" href="#"> <i class="fa fa-align-justify" aria-hidden="true"></i>
+                Giới thiệu</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"> <i class="fa fa-phone" aria-hidden="true"></i> Góp ý</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> Hỏi
+                đáp</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"> <i class="fa fa-question" aria-hidden="true"></i> Hỏi
+                đáp</a> </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown"><i
+                  class="fa fa-user mx-2" aria-hidden="true"></i>Tài khoản</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"> <i class="fa fa-info-circle" aria-hidden="true"></i> Thông tin</a>
+                <a class="dropdown-item" href="#"> <i class="fa fa-recycle" aria-hidden="true"></i> Thay đổi mật
+                  khâu</a>
+                <hr>
+                <a class="dropdown-item" href="#"> <i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a>
+
+              </div>
+            </li>
+          </ul>
+
+          <!-- phan này sẽ nằm bên phải của navbar-->
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-flag-usa" aria-hidden="true"></i> English
+              </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-flag" aria-hidden="true"></i> Tiếng việt
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- end navbar-->
+
+      <!-- vung body-->
+      <div class="row py-3">
+
+        <!-- vung cot trai sp-->
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card bg-white text-center mt-2 shadow">
+                <div class="card-header" >
+                  Mackbook Air 2020
+                </div>
+                <div class="card-body">
+                  <img src="img/app1.jpg" class="w-100" />
+                </div>
+                <div class="card-footer">
+                  <span class="text-danger" >23,000,000 </span><br>
+                  <button type="button" class="btn btn-dark stretched-link" onclick="addProduct('Mackbook Air 2020','app1.jpg',23000000)" >Mua</a>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4">
+              <div class="card bg-white text-center mt-2 shadow">
+                <div class="card-header" >
+                  Mackbook Air 2021
+                </div>
+                <div class="card-body">
+                  <img src="img/app2.jpg" class="w-100" />
+                </div>
+                <div class="card-footer">
+                  <span class="text-danger" >30,000,000 </span><br>
+                  <button type="button" class="btn btn-dark stretched-link" onclick="addProduct('Mackbook Air 2021','app2.jpg',30000000)" >Mua</a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card bg-white text-center mt-2 shadow">
+                <div class="card-header">
+                  Mackbook Pro 2021
+                </div>
+                <div class="card-body">
+                  <img src="img/app3.jpg"  class="w-100" />
+                </div>
+                <div class="card-footer">
+                  <span class="text-danger" >44,000,000 </span><br>
+                  <button type="button" class="btn btn-dark stretched-link" onclick="addProduct('Mackbook Pro 2021','app3.jpg',44000000)" >Mua</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4">
+              <div class="card bg-white text-center mt-2 shadow">
+                <div class="card-header">
+                  Mackbook Air 2021
+                </div>
+                <div class="card-body">
+                  <img src="img/app4.jpg" class="w-100" />
+                </div>
+                <div class="card-footer">
+                  <span class="text-danger">23,000,000 </span><br>
+                  <a href="#" class="btn btn-dark stretched-link" onclick="addProduct('Mackbook Air 2021','app4.jpg',23000000)" >Mua</a>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- end vung cot trai sp-->
+
+        <!-- vung cot phai -->
+        <div class="col-lg-3">
+
+          <div class="card bg-white shadow pb-5">
+            <div class="card-body">
+              <img src="img/shoppingcart.gif" style="width: 20%;" />
+              <div class="d-inline-block mx-4">
+                Items <span class="badge badge-pill badge-danger" style="visibility: hidden;" id="soluong">0</span><br>
+                <span id="tongtien" style="color: blue; ">0 </span> VNĐ
+              </div>
+            </div>
+            <a href="#myModal" class="btn btn-primary justify-content-center w-50 m-auto mb-5"
+              data-toggle="modal" onclick="showCart()">VIEW CART</a>
+          </div>
+
+          <div class="card bg-white shadow my-3">
+            <div class="card-body">
+              <input type="search" placeholder="KeyWords" class="p-2 w-100 form-control" />
+              <a href="#" class="btn btn-primary mt-1">SEARCH</a>
+
+            </div>
+          </div>
+
+          <div class="card bg-white shadow">
+            <div class="card-header  text-center">
+              <span class="fa fa-align-justify"></span>
+
+              CHỦNG LOẠI
+            </div>
+            <div class="card-body">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Điện thoại di
+                  động</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Máy tính xách tay</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">Máy tính để bàn</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Quạt máy</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- end vung cot phai -->
+
+
+      </div>
+
+      <!-- end vung body-->
+
+      <ul class="pagination justify-content-center" style="margin:20px 0">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+
+
+
+      <hr />
+
+      <div class="row bg-dark p-5">
+        <div class="col-lg-6 col-md-6 text-secondary">
+          <h6 class="text-white">THÔNG TIN</h6>
+          <p class="text-justify">A jumbotron indicates a big grey box
+            for calling extra attention to some special content or information
+            A jumbotron indicates a big grey box for calling extra attention
+            to some special content or information A jumbotron indicates a big grey
+            box for calling extra attention to some special content or information
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-secondary">
+          <h6 class="text-white">SẢN PHẨM</h6>
+          <div class="nav flex-column">
+            <a href="#" class="nav-link text-secondary">Điện thoại</a>
+            <a href="#" class="nav-link text-secondary">Tablet</a>
+            <a href="#" class="nav-link text-secondary">Phụ kiện</a>
+            <a href="#" class="nav-link text-secondary">Laptop</a>
+            <a href="#" class="nav-link text-secondary">Đồng hồ</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-secondary">
+          <h6 class="text-white">THÔNG TIN NHANH</h6>
+          <div class="nav flex-column">
+            <a href="#" class="nav-link text-secondary">Mua hàng: 1900 1099</a>
+            <a href="#" class="nav-link text-secondary">Bảo hành: 1900 1089</a>
+            <a href="#" class="nav-link text-secondary">Khiếu nại: 1900 1079</a>
+            <a href="#" class="nav-link text-secondary">Kỹ thuật: 1900 1069</a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-12 text-secondary">
+          <hr class="border-secondary">
+
+          <div class="d-flex">
+            <p>
+              <i class="fa fa-copyright" aria-hidden="true"></i>
+              Copyright . Template by Pham Dao Minh Vu
+            </p>
+            <div class="nav ml-auto justify-content-end">
+              <a href="#" class="nav-link"><i class="fa fa-facebook-square"></i> </a>
+              <a href="#" class="nav-link"><i class="fa fa-twitter-square"></i> </a>
+              <a href="#" class="nav-link"><i class="fa fa-linkedin"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end vung footer-->
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">GIỎ HÀNG</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table class="table table-bordered table-striped" data-toggle="table" id="bangdulieu">
+            <thead>
+              <tr>
+                <th>Tên sản phẩm</th>
+                <th>Hình sản phẩm</th>
+                <th>Giá sản phẩm</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-dismiss="modal">Clear Cart</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+var quantity = document.getElementById('soluong');
+var totalPrice = document.getElementById('tongtien');
+var cart = document.getElementById('bangdulieu');
+var arr = [];
+var sl = 0, tt = 0;
+
+function addProduct(name, img, price) 
+{
+  let product = {
+    name : name,
+    img : img,
+    price : price
+  };
+  arr.push(product);
+  sl++;
+  tt += product.price;
+  quantity.innerHTML = sl;
+  totalPrice.innerHTML = tt;
+
+  quantity.style.visibility = 'visible';
+}
+
+function showCart() 
+{
+  for(product of arr) 
+  {
+    cart.innerHTML += `<tr>
+                          <td>${product.name}</td>
+                          <td><img src='./img/${product.img}' width=100% ></td>
+                          <td>${product.price}</td>
+                        </tr>`
+  }
+  arr = [];
+}
+
+
+</script>

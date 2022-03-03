@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web/js/all.min.js">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_product-01.css">
+
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <title>Lab02_Product-01</title>
+</head>
+
+
+<body>
+  
+
+<!-- Header Section -->
+<header class="headerLab02">
+<div class="container">
+<div class="row">
+  <div class="col-7 d-flex flex-column justify-content-end">
+    <h1 class="py-4">ONLINE SHOPPING MALL</h1>
+    <p class="font-weight-bold">THE CENTER POINT OF THE PROFESSTIONAL PROGRAMMING</p>
+  </div>
+
+  <div class="col-5 d-flex flex-column justify-content-end">
+    <img class="img-fluid" src="img/header-object.png">
+  </div>
+
+</div>
+</div>
+</header>
+<!-- End of Header Section -->
+
+
+
+
+
+<!-- Navigation Section -->
+<div class="container">
+  <nav class="navbar navbar-expand-xl navbar-dark bg-dark rounded">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav px-5">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-bars"></i>
+            Giới thiệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-phone"></i>
+            Liên hệ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-envelope"></i>
+            Góp ý</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-question"></i>
+            Hỏi đáp</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-alt"></i>	&nbsp;Tài khoản
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Đăng Nhập</a>
+            <a class="dropdown-item" href="#">Quên Mật Mhẩu</a>
+            <a class="dropdown-item" href="#">Đăng Ký Thành Viên</a>
+            <hr>
+            <a class="dropdown-item" href="#">Đăng Xuất</a>
+            <a class="dropdown-item" href="#">Đổi Mật Khẩu</a>
+            <a class="dropdown-item" href="#">Cập Nhập Hồ Sơ</a>
+            <hr>
+            <a class="dropdown-item" href="#">Đơn Hàng</a>
+            <a class="dropdown-item" href="#">Hàng Đã Mua</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">English</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Tiếng Việt</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+</div>
+<!-- End of Navigation Section -->
+
+
+
+
+
+<!-- Main Section -->
+<section class="main_section">
+<div class="container">
+<div class="row">
+
+  <div class="main-left col-lg-9 col-md-7"> 
+    <div class="row">
+
+      <div class="container-">
+        <div class="row">
+          <div class="col-sm-7">
+
+            <!-- Phần hình lớn, chỉ duy nhất 1 hình -->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active" data-slide-to="0">
+                        <img src="img/app1.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="img/app2.jpg" data-slide-to="1">
+                    </div>
+                    <div class="item">
+                        <img src="img/app3.jpg" data-slide-to="2">
+                    </div>
+                    <div class="item">
+                        <img src="img/app4.jpg" data-slide-to="3">
+                    </div>
+                    <div class="item">
+                        <img src="img/app5.jpg" data-slide-to="4">
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Phần hình nhỏ, 5 hình ngang nhau -->
+            <div class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active mt-4">
+                      <div data-target="#carousel" data-slide-to="0" class="thumb px-2"><img src="/img/app1.jpg" id="imageSP" onclick="loadIMG(this)"></div>
+                      <div data-target="#carousel" data-slide-to="1" class="thumb px-2"><img src="/img/app2.jpg" id="imageSP" onclick="loadIMG(this)"></div>
+                      <div data-target="#carousel" data-slide-to="2" class="thumb px-2"><img src="/img/app3.jpg" id="imageSP" onclick="loadIMG(this)"></div>
+                      <div data-target="#carousel" data-slide-to="3" class="thumb px-2"><img src="/img/app4.jpg" id="imageSP" onclick="loadIMG(this)"></div>
+                      <div data-target="#carousel" data-slide-to="4" class="thumb px-2"><img src="/img/app5.jpg" id="imageSP" onclick="loadIMG(this)"></div>
+                    </div><!-- /item -->
+                </div><!-- /carousel-inner -->
+            </div> <!-- /thumbcarousel -->
+            
+            
+          
+          </div> <!-- /col-sm-6 -->
+          <div class="col-sm-5">
+            <h2 class="font-weight-bold mt-0">LAPTOP APPLE MACBOOK AIR 2017 I5 1.5GHZ /8GB /128GB</h2>
+            <div class="row ml-2">
+              <div id="stars">
+                <span class="fa fa-star mr-2" onclick="rating(1)"></span>
+                <span class="fa fa-star mr-2" onclick="rating(2)"></span>
+                <span class="fa fa-star mr-2" onclick="rating(3)"></span>
+                <span class="fa fa-star mr-2" onclick="rating(4)"></span>
+                <span class="fa fa-star mr-2" onclick="rating(5)"></span>
+              </div>
+            </div>
+            <h3>Thiết kế mỏng và nhẹ.</h3>
+            <p>Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h3 class="font-weight-bolder text-danger">GIÁ BÁN: 19.490.000<span class="money">&#8363;</span></h3>
+            <p>91% Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+              <p class="ml-4 mt-1">Màu : </p>
+              <a href="#"><span class="rounded-circle"></span></a>
+              <a href="#"><span class="rounded-circle" style="background-color: pink;"></span></a>
+            </div>
+
+            <!-- Progress Bars -->
+            <div class="row my-3">
+              <!-- 5 stars -->
+              <div class="col-sm-3">
+                <p>5 stars : </p>
+              </div>
+              <div class="col-sm-9">
+                <div class="progress">
+                  <div class="progress-bar bg-info progress-bar-striped" style="width:70%">70%</div>
+                </div>
+              </div>
+
+              <!-- 4 stars -->
+              <div class="col-sm-3">
+                <p>4 stars : </p>
+              </div>
+              <div class="col-sm-9">
+                <div class="progress">
+                  <div class="progress-bar bg-warning progress-bar-striped" style="width:20%">20%</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- button mua ngay -->
+            <div class="row my-5">
+               <button type="button" class="btn btn-secondary ml-4 px-5">MUA NGAY</button>
+               <a href="#" class="love_it"><i class="fab fa-gratipay"></i></a>
+            </div>
+          </div> <!-- /col-sm-6 -->
+        </div> <!-- /row -->
+      </div> <!-- /container -->
+      
+
+    </div> <!-- End of row div -->
+  </div> <!-- End of main-left div -->
+
+  <div class="main_right col-lg-3 col-md-4 my-5">
+    <!-- Cast Section -->
+    <div class="col-12 my-4 shopping_now">
+      <div class="row">
+        <div class="col-4 d-flex flex-row justify-content-end pr-0">
+          <img class="img-fluid shopping_img" src="img/shoppingcart.gif">
+        </div>
+        <div class="col-8">
+          <h4>100 ITEMS</h4>
+          <h5>45.000.000<span class="money">&#8363;</span></h5>
+        </div>
+        <div class="col-12 text-center my-3">
+          <a href="#" class="btn btn-success stretched-link">View Cast</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Searching Section -->
+    <div class="row">
+      <div class="col-10 my-4 pr-0 pl-4">
+        <input type="text" placeholder="&nbsp;Keywords" style="width: 100%; height: 35px; border-radius: 8px;">
+      </div>
+      <div class="col-1">
+        <a href="#" class="text-decoration-none"><i class="fas fa-search mt-4 d-flex flex-row justify-content-start" style="font-size: 30px; color: darkgray;"></i></a>
+      </div>
+    </div>
+
+
+    <!-- List Group Section -->
+    <div class="col-12 my-4">
+      <div class="card">
+        <div class="card-header text-center">
+          <i class="fas fa-bars"></i>
+          MENU
+        </div>
+        <div class="card-body">
+          <li class="list-group-item list-group-item-action list-group-item-info">Điện thoại di động</li>
+          <li class="list-group-item list-group-item-action list-group-item-warning">Máy tính xách tay</li>
+          <li class="list-group-item list-group-item-action list-group-item-success">Máy tính để bàn</li>
+          <li class="list-group-item list-group-item-action list-group-item-danger">Linh kiện máy tính</li>
+          <li class="list-group-item list-group-item-action list-group-item-warning">Ti Vi</li>
+          <li class="list-group-item list-group-item-action list-group-item-info">Tủ lạnh</li>
+          <li class="list-group-item list-group-item-action list-group-item-danger">Quạt máy</li>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   
+</div> <!-- end of row div -->
+</div> <!-- end of container div -->
+</section> <!-- end of Main Section -->
+
+          
+
+
+
+<!-- Footer Section -->
+<footer>
+<div class="container-fluid bg-dark text-light">
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="my-4">THÔNG TIN</h3>
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="col-md-3 pl-5">
+      <h3 class="my-4">SẢN PHẨM</h3>
+      <a href="#" class="text-decoration-none text-light"><p>Điện Thoại</p></a>
+      <a href="#" class="text-decoration-none text-light"><p>Laptop</p></a>
+      <a href="#" class="text-decoration-none text-light"><p>Tablet</p></a>
+      <a href="#" class="text-decoration-none text-light"><p>Private Computer</p></a>
+      <a href="#" class="text-decoration-none text-light"><p>Linh Kiện</p></a>
+    </div>
+
+    <div class="col-md-3 pl-4">
+      <h3 class="my-4">THÔNG TIN</h3>
+      <p>Gọi mua hàng : 1800 1060</p>
+      <p>Gọi tư vấn : 1800 1061</p>
+      <p>Gọi khiếu nại : 1800 1062</p>
+      <p>Gọi kỹ thuật : 1800 1063</p>
+    </div>
+
+  </div> <!-- end of row 1 div -->
+
+  <hr>
+
+  <div class="row">
+
+    <div class="col-6">
+      <p class="my-4">Copyright &copy; All Right Reserve By ITC</p>
+    </div>
+
+    <div class="col-6 d-flex flex-row justify-content-end pl-5">
+      <div class="row">
+        <a href="#" class="col-md-3 col-sm-6 icon01" style="font-size: 3em; color: grey;"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="col-md-3 col-sm-6 icon02"  style="font-size: 3em; color: grey;"><i class="fab fa-twitter-square"></i></a>
+        <a href="#" class="col-md-3 col-sm-6 icon03"  style="font-size: 3em; color: grey;"><i class="fas fa-envelope-square"></i></a>
+        <a href="#" class="col-md-3 col-sm-6 icon04"  style="font-size: 3em; color: grey;"><i class="fab fa-youtube-square"></i></a>
+      </div>
+    </div>
+
+  </div> <!-- end of row 2 div -->
+
+
+  </div> <!-- end of container div -->
+</div> <!-- end of container div -->
+</footer>
+<!-- End ofFooter Section -->
+
+
+<script>
+var image = document.getElementById('imageSP')
+previousIMG = null;
+function loadIMG(img) 
+{
+    if(previousIMG != null) {
+      previousIMG.style.border = "none";
+    }
+    previousIMG = img;
+    img.style.border = '2px solid crimson';
+    img.style.borderRadius = "10px";
+    img.style.boxShadow = "rgba(0, 0, 0, 0.35) 0px 5px 15px;";
+    img.style.padding = '2px';
+}
+
+var stars = document.getElementById("stars");
+function rating(soSao) 
+{
+  for (let i=0; i<soSao; i++)
+    stars.children[i].style.color = 'orange';
+  for (let i=soSao; i<5; i++)
+    stars.children[i].style.color = 'black';
+}
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

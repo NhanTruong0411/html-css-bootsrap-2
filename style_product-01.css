@@ -1,0 +1,30 @@
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+  margin-top: 20px;
+}
+.star-item {
+  color: black !important;
+  text-decoration: none;
+}
+.thumb {
+  width: 20%;
+  cursor: pointer;
+  float: left;
+}
+.thumb img {
+  margin: 2px;
+}
+.item img {
+  width: 100%;	
+}
+
+.rounded-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+  background-color: #555;
+}
+
+
+
